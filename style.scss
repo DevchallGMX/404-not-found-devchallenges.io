@@ -1,0 +1,10 @@
+html {
+  body {
+    background: rosybrown;
+    height: 100vh;
+
+    &:hover {
+      background: blue;
+    }
+  }
+}

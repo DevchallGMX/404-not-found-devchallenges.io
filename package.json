@@ -1,0 +1,13 @@
+{
+  "name": "install-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./style.scss:./css/style.css  --no-source-map --style expanded --watch",
+    "compile": "sass ./style.scss:./css/min/style.css  --no-source-map --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

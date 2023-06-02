@@ -1,0 +1,7 @@
+html body {
+  background: rosybrown;
+  height: 100vh;
+}
+html body:hover {
+  background: blue;
+}
